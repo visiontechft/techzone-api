@@ -3,56 +3,330 @@
     {
       "id": 1,
       "name": "TechZone",
-      "slogan": "La technologie à votre portée",
-      "currency": "FCFA",
       "email": "contact@techzone.cm",
       "phone": "+237 690 000 000",
-      "address": "Douala, Cameroun",
-      "facebook": "https://facebook.com",
-      "instagram": "https://instagram.com",
-      "twitter": "https://twitter.com"
+      "slogan": "La technologie à votre portée"
     }
   ],
   "categories": [
-    { "id": "cat1", "name": "Smartphones", "icon": "📱", "description": "Téléphones intelligents toutes marques" },
-    { "id": "cat2", "name": "Ordinateurs", "icon": "💻", "description": "Laptops et PC de bureau" },
-    { "id": "cat3", "name": "Audio", "icon": "🎧", "description": "Écouteurs, casques et enceintes" },
-    { "id": "cat4", "name": "Tablettes", "icon": "📟", "description": "Tablettes et accessoires" },
-    { "id": "cat5", "name": "Accessoires", "icon": "🔌", "description": "Chargeurs, câbles et gadgets" },
-    { "id": "cat6", "name": "Smart Watch", "icon": "⌚", "description": "Montres connectées et fitness" }
+    {
+      "id": "cat1",
+      "name": "Smartphones",
+      "icon": "📱"
+    },
+    {
+      "id": "cat2",
+      "name": "Ordinateurs",
+      "icon": "💻"
+    },
+    {
+      "id": "cat3",
+      "name": "Audio",
+      "icon": "🎧"
+    },
+    {
+      "id": "cat4",
+      "name": "Tablettes",
+      "icon": "📟"
+    },
+    {
+      "id": "cat5",
+      "name": "Accessoires",
+      "icon": "🔌"
+    },
+    {
+      "id": "cat6",
+      "name": "Smart Watch",
+      "icon": "⌚"
+    }
   ],
   "promotions": [
-    { "id": 1, "title": "Mega Soldes", "subtitle": "Jusqu'à -40% sur les Smartphones", "code": "TECH40", "discount_percent": 40, "color": "#e63946" },
-    { "id": 2, "title": "Semaine Audio", "subtitle": "Casques & Écouteurs à prix réduits", "code": "AUDIO20", "discount_percent": 20, "color": "#2a9d8f" },
-    { "id": 3, "title": "Back to School", "subtitle": "Laptops en promotion pour étudiants", "code": "SCHOOL15", "discount_percent": 15, "color": "#457b9d" }
+    {
+      "id": 1,
+      "title": "Mega Soldes",
+      "code": "TECH40",
+      "color": "#e63946",
+      "subtitle": "-40% sur les Smartphones"
+    },
+    {
+      "id": 2,
+      "title": "Semaine Audio",
+      "code": "AUDIO20",
+      "color": "#2a9d8f",
+      "subtitle": "Casques à prix réduits"
+    },
+    {
+      "id": 3,
+      "title": "Back to School",
+      "code": "SCHOOL15",
+      "color": "#457b9d",
+      "subtitle": "Laptops en promotion"
+    }
   ],
   "products": [
-    { "id": 1, "name": "Samsung Galaxy A54", "category_id": "cat1", "brand": "Samsung", "price": 185000, "old_price": 220000, "stock": 15, "rating": 4.5, "reviews_count": 128, "is_new": false, "is_featured": true, "on_sale": true, "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=400", "description": "6.4 pouces, 128Go, 8Go RAM, caméra 50MP, 5000mAh." },
-    { "id": 2, "name": "iPhone 14", "category_id": "cat1", "brand": "Apple", "price": 520000, "old_price": 580000, "stock": 8, "rating": 4.8, "reviews_count": 256, "is_new": false, "is_featured": true, "on_sale": true, "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400", "description": "256Go, puce A15 Bionic, caméra 12MP, Dynamic Island." },
-    { "id": 3, "name": "Xiaomi Redmi Note 12", "category_id": "cat1", "brand": "Xiaomi", "price": 95000, "old_price": null, "stock": 30, "rating": 4.2, "reviews_count": 89, "is_new": true, "is_featured": false, "on_sale": false, "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400", "description": "128Go, écran AMOLED 120Hz, charge rapide 33W." },
-    { "id": 4, "name": "HP Pavilion 15", "category_id": "cat2", "brand": "HP", "price": 380000, "old_price": 420000, "stock": 5, "rating": 4.3, "reviews_count": 47, "is_new": false, "is_featured": true, "on_sale": true, "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400", "description": "15.6 pouces, Core i5, 16Go RAM, 512Go SSD, Windows 11." },
-    { "id": 5, "name": "MacBook Air M2", "category_id": "cat2", "brand": "Apple", "price": 850000, "old_price": null, "stock": 3, "rating": 4.9, "reviews_count": 312, "is_new": true, "is_featured": true, "on_sale": false, "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400", "description": "Puce M2, 8Go RAM, 256Go SSD, autonomie 18h." },
-    { "id": 6, "name": "Lenovo IdeaPad 3", "category_id": "cat2", "brand": "Lenovo", "price": 250000, "old_price": 290000, "stock": 12, "rating": 4.0, "reviews_count": 63, "is_new": false, "is_featured": false, "on_sale": true, "image": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=400", "description": "15.6 pouces, Ryzen 5, 8Go RAM, 256Go SSD." },
-    { "id": 7, "name": "Sony WH-1000XM5", "category_id": "cat3", "brand": "Sony", "price": 235000, "old_price": 280000, "stock": 9, "rating": 4.9, "reviews_count": 445, "is_new": false, "is_featured": true, "on_sale": true, "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400", "description": "Réduction de bruit active, 30h autonomie, Hi-Res." },
-    { "id": 8, "name": "AirPods Pro 2", "category_id": "cat3", "brand": "Apple", "price": 175000, "old_price": null, "stock": 20, "rating": 4.7, "reviews_count": 198, "is_new": true, "is_featured": false, "on_sale": false, "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=400", "description": "Puce H2, ANC adaptatif, audio spatial, 30h avec boîtier." },
-    { "id": 9, "name": "JBL Tune 510BT", "category_id": "cat3", "brand": "JBL", "price": 42000, "old_price": 55000, "stock": 25, "rating": 4.1, "reviews_count": 77, "is_new": false, "is_featured": false, "on_sale": true, "image": "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=400", "description": "Pure Bass, Bluetooth 5.0, 40h autonomie, micro intégré." },
-    { "id": 10, "name": "iPad 10ème génération", "category_id": "cat4", "brand": "Apple", "price": 340000, "old_price": 380000, "stock": 7, "rating": 4.6, "reviews_count": 134, "is_new": false, "is_featured": true, "on_sale": true, "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400", "description": "10.9 pouces, puce A14 Bionic, 64Go, compatible Apple Pencil." },
-    { "id": 11, "name": "Samsung Galaxy Tab A8", "category_id": "cat4", "brand": "Samsung", "price": 145000, "old_price": null, "stock": 18, "rating": 4.0, "reviews_count": 56, "is_new": true, "is_featured": false, "on_sale": false, "image": "https://images.unsplash.com/photo-1561154464-82e9adf32764?w=400", "description": "10.5 pouces, 32Go, 3Go RAM, batterie 7040mAh." },
-    { "id": 12, "name": "Chargeur USB-C 65W", "category_id": "cat5", "brand": "Anker", "price": 18000, "old_price": 22000, "stock": 50, "rating": 4.4, "reviews_count": 203, "is_new": false, "is_featured": false, "on_sale": true, "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=400", "description": "65W, PD 3.0, recharge 3 appareils simultanément." },
-    { "id": 13, "name": "Câble USB-C Lightning", "category_id": "cat5", "brand": "Apple", "price": 12000, "old_price": null, "stock": 100, "rating": 4.2, "reviews_count": 88, "is_new": false, "is_featured": false, "on_sale": false, "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400", "description": "1 mètre, nylon tressé, charge 20W, iPhone 12 et plus." },
-    { "id": 14, "name": "Samsung Galaxy Watch 6", "category_id": "cat6", "brand": "Samsung", "price": 165000, "old_price": 195000, "stock": 11, "rating": 4.5, "reviews_count": 92, "is_new": false, "is_featured": true, "on_sale": true, "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400", "description": "Suivi santé, GPS, NFC, étanche 5ATM, Wear OS 4." },
-    { "id": 15, "name": "Xiaomi Smart Band 8", "category_id": "cat6", "brand": "Xiaomi", "price": 28000, "old_price": null, "stock": 40, "rating": 4.3, "reviews_count": 165, "is_new": true, "is_featured": false, "on_sale": false, "image": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=400", "description": "16 jours autonomie, 150+ activités sportives, AMOLED." }
+    {
+      "id": 1,
+      "name": "Samsung Galaxy A54",
+      "category_id": "cat1",
+      "price": 185000,
+      "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=400"
+    },
+    {
+      "id": 2,
+      "name": "iPhone 14",
+      "category_id": "cat1",
+      "price": 520000,
+      "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400"
+    },
+    {
+      "id": 3,
+      "name": "Xiaomi Redmi Note 12",
+      "category_id": "cat1",
+      "price": 95000,
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400"
+    },
+    {
+      "id": 4,
+      "name": "HP Pavilion 15",
+      "category_id": "cat2",
+      "price": 380000,
+      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400"
+    },
+    {
+      "id": 5,
+      "name": "MacBook Air M2",
+      "category_id": "cat2",
+      "price": 850000,
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400"
+    },
+    {
+      "id": 6,
+      "name": "Lenovo IdeaPad 3",
+      "category_id": "cat2",
+      "price": 250000,
+      "image": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=400"
+    },
+    {
+      "id": 7,
+      "name": "Sony WH-1000XM5",
+      "category_id": "cat3",
+      "price": 235000,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400"
+    },
+    {
+      "id": 8,
+      "name": "AirPods Pro 2",
+      "category_id": "cat3",
+      "price": 175000,
+      "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=400"
+    },
+    {
+      "id": 9,
+      "name": "JBL Tune 510BT",
+      "category_id": "cat3",
+      "price": 42000,
+      "image": "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=400"
+    },
+    {
+      "id": 10,
+      "name": "iPad 10e generation",
+      "category_id": "cat4",
+      "price": 340000,
+      "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400"
+    },
+    {
+      "id": 11,
+      "name": "Samsung Galaxy Tab A8",
+      "category_id": "cat4",
+      "price": 145000,
+      "image": "https://images.unsplash.com/photo-1561154464-82e9adf32764?w=400"
+    },
+    {
+      "id": 12,
+      "name": "Chargeur USB-C 65W",
+      "category_id": "cat5",
+      "price": 18000,
+      "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=400"
+    },
+    {
+      "id": 13,
+      "name": "Cable USB-C Lightning",
+      "category_id": "cat5",
+      "price": 12000,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400"
+    },
+    {
+      "id": 14,
+      "name": "Samsung Galaxy Watch 6",
+      "category_id": "cat6",
+      "price": 165000,
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400"
+    },
+    {
+      "id": 15,
+      "name": "Xiaomi Smart Band 8",
+      "category_id": "cat6",
+      "price": 28000,
+      "image": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=400"
+    }
+  ],
+  "details": [
+    {
+      "id": 1,
+      "old_price": 220000,
+      "rating": 4.5,
+      "tag": "sale",
+      "brand": "Samsung"
+    },
+    {
+      "id": 2,
+      "old_price": 580000,
+      "rating": 4.8,
+      "tag": "sale",
+      "brand": "Apple"
+    },
+    {
+      "id": 3,
+      "old_price": 0,
+      "rating": 4.2,
+      "tag": "new",
+      "brand": "Xiaomi"
+    },
+    {
+      "id": 4,
+      "old_price": 420000,
+      "rating": 4.3,
+      "tag": "sale",
+      "brand": "HP"
+    },
+    {
+      "id": 5,
+      "old_price": 0,
+      "rating": 4.9,
+      "tag": "new",
+      "brand": "Apple"
+    },
+    {
+      "id": 6,
+      "old_price": 290000,
+      "rating": 4.0,
+      "tag": "sale",
+      "brand": "Lenovo"
+    },
+    {
+      "id": 7,
+      "old_price": 280000,
+      "rating": 4.9,
+      "tag": "sale",
+      "brand": "Sony"
+    },
+    {
+      "id": 8,
+      "old_price": 0,
+      "rating": 4.7,
+      "tag": "new",
+      "brand": "Apple"
+    },
+    {
+      "id": 9,
+      "old_price": 55000,
+      "rating": 4.1,
+      "tag": "sale",
+      "brand": "JBL"
+    },
+    {
+      "id": 10,
+      "old_price": 380000,
+      "rating": 4.6,
+      "tag": "sale",
+      "brand": "Apple"
+    },
+    {
+      "id": 11,
+      "old_price": 0,
+      "rating": 4.0,
+      "tag": "new",
+      "brand": "Samsung"
+    },
+    {
+      "id": 12,
+      "old_price": 22000,
+      "rating": 4.4,
+      "tag": "sale",
+      "brand": "Anker"
+    },
+    {
+      "id": 13,
+      "old_price": 0,
+      "rating": 4.2,
+      "tag": "",
+      "brand": "Apple"
+    },
+    {
+      "id": 14,
+      "old_price": 195000,
+      "rating": 4.5,
+      "tag": "sale",
+      "brand": "Samsung"
+    },
+    {
+      "id": 15,
+      "old_price": 0,
+      "rating": 4.3,
+      "tag": "new",
+      "brand": "Xiaomi"
+    }
   ],
   "testimonials": [
-    { "id": 1, "name": "Bertrand K.", "avatar": "https://randomuser.me/api/portraits/men/32.jpg", "rating": 5, "comment": "Livraison rapide, produit conforme. Mon Samsung est arrivé en parfait état !", "product": "Samsung Galaxy A54", "date": "2024-11-10" },
-    { "id": 2, "name": "Ines M.", "avatar": "https://randomuser.me/api/portraits/women/44.jpg", "rating": 4, "comment": "Très bon casque Sony, réduction de bruit impressionnante. Je recommande !", "product": "Sony WH-1000XM5", "date": "2024-11-22" },
-    { "id": 3, "name": "Patrick N.", "avatar": "https://randomuser.me/api/portraits/men/56.jpg", "rating": 5, "comment": "MacBook Air M2 incroyable. Rapide, silencieux, autonomie au rendez-vous.", "product": "MacBook Air M2", "date": "2024-12-01" },
-    { "id": 4, "name": "Sylvie A.", "avatar": "https://randomuser.me/api/portraits/women/68.jpg", "rating": 4, "comment": "Belle tablette pour le prix. Mon enfant l'utilise pour ses cours, parfait.", "product": "Samsung Galaxy Tab A8", "date": "2024-12-05" }
+    {
+      "id": 1,
+      "name": "Bertrand K.",
+      "rating": 5,
+      "comment": "Livraison rapide, Samsung reçu en parfait état !",
+      "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Ines M.",
+      "rating": 4,
+      "comment": "Casque Sony excellent, réduction de bruit top !",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Patrick N.",
+      "rating": 5,
+      "comment": "MacBook Air M2 incroyable, autonomie parfaite.",
+      "avatar": "https://randomuser.me/api/portraits/men/56.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Sylvie A.",
+      "rating": 4,
+      "comment": "Tablette parfaite pour les cours de mon enfant.",
+      "avatar": "https://randomuser.me/api/portraits/women/68.jpg"
+    }
   ],
   "faqs": [
-    { "id": 1, "question": "Quels sont les délais de livraison ?", "answer": "Livraisons sous 24 à 72h selon votre localisation au Cameroun." },
-    { "id": 2, "question": "Puis-je retourner un produit ?", "answer": "Oui, 7 jours après réception pour retourner un article non utilisé dans son emballage." },
-    { "id": 3, "question": "Les produits sont-ils garantis ?", "answer": "Tous nos produits ont une garantie constructeur de 12 mois minimum." },
-    { "id": 4, "question": "Quels modes de paiement acceptez-vous ?", "answer": "MTN MoMo, Orange Money, cartes bancaires et paiement à la livraison." }
+    {
+      "id": 1,
+      "question": "Délais de livraison ?",
+      "answer": "Livraisons sous 24 à 72h au Cameroun."
+    },
+    {
+      "id": 2,
+      "question": "Retourner un produit ?",
+      "answer": "Oui, 7 jours après réception."
+    },
+    {
+      "id": 3,
+      "question": "Garantie produits ?",
+      "answer": "Garantie constructeur 12 mois minimum."
+    },
+    {
+      "id": 4,
+      "question": "Modes de paiement ?",
+      "answer": "MTN MoMo, Orange Money, carte, livraison."
+    }
   ]
 }
