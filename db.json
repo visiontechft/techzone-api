@@ -1,13 +1,4 @@
 {
-  "store": [
-    {
-      "id": 1,
-      "name": "TechZone",
-      "email": "contact@techzone.cm",
-      "phone": "+237 690 000 000",
-      "slogan": "La technologie à votre portée"
-    }
-  ],
   "categories": [
     {
       "id": "cat1",
@@ -53,7 +44,7 @@
       "title": "Semaine Audio",
       "code": "AUDIO20",
       "color": "#2a9d8f",
-      "subtitle": "Casques à prix réduits"
+      "subtitle": "Casques a prix reduits"
     },
     {
       "id": 3,
@@ -282,14 +273,14 @@
       "id": 1,
       "name": "Bertrand K.",
       "rating": 5,
-      "comment": "Livraison rapide, Samsung reçu en parfait état !",
+      "comment": "Livraison rapide, Samsung recu en parfait etat !",
       "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
     },
     {
       "id": 2,
       "name": "Ines M.",
       "rating": 4,
-      "comment": "Casque Sony excellent, réduction de bruit top !",
+      "comment": "Casque Sony excellent, reduction de bruit top !",
       "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
     },
     {
@@ -305,28 +296,6 @@
       "rating": 4,
       "comment": "Tablette parfaite pour les cours de mon enfant.",
       "avatar": "https://randomuser.me/api/portraits/women/68.jpg"
-    }
-  ],
-  "faqs": [
-    {
-      "id": 1,
-      "question": "Délais de livraison ?",
-      "answer": "Livraisons sous 24 à 72h au Cameroun."
-    },
-    {
-      "id": 2,
-      "question": "Retourner un produit ?",
-      "answer": "Oui, 7 jours après réception."
-    },
-    {
-      "id": 3,
-      "question": "Garantie produits ?",
-      "answer": "Garantie constructeur 12 mois minimum."
-    },
-    {
-      "id": 4,
-      "question": "Modes de paiement ?",
-      "answer": "MTN MoMo, Orange Money, carte, livraison."
     }
   ]
 }
